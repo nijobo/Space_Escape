@@ -1,119 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/custom.css" />
-    <link rel="stylesheet" href="css/fonts.css" />
-    <link rel="stylesheet" href="css/general.css" />
-    <link rel="stylesheet" href="css/layout.css" />
-    <link rel="stylesheet" href="css/burger.css" />
-    <link rel="stylesheet" href="css/cards.css" />
-    <link rel="icon" type="image/png" href="img/fav.png" />
-    <title>Emergency Site</title>
-  </head>
-  <body id="frontpage">
-    <header>
-      <nav>
-        <div id="logotype-wrapper" class="logo">
-          <a href="index.html"> LOGO-TYPE </a>
-        </div>
-        <ul class="menu">
-          <li><a class="menuItem" href="instruction.html">Nærkontakt </a></li>
-          <li><a class="menuItem" href="register.html">Indberet</a></li>
-        </ul>
-        <button class="burger">
-          <span class="line"></span>
-          <span class="line"></span>
-          <span class="line"></span>
-        </button>
-      </nav>
-    </header>
-    <section id="main-disclamer">
-      <div id="main-disclamer-content">
-        <img src="warning" alt="ICON" />
-        <div>
-          <h1>OVERSKRIFT</h1>
-          <p class="sub">Underrubrik</p>
-        </div>
-      </div>
-    </section>
-    <main>
-      <section id="daily">
-        <article class="daily_card">
-          <img src="" alt="teaser_img" />
-          <div class="daily_text">
-            <h2>Teaser</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-              magnam ducimus ea, sed minima asperiores.
-            </p>
-            <a href="" class="cta_btn">Se mere</a>
-          </div>
-        </article>
-        <article class="daily_card">
-          <img src="" alt="teaser_img" />
-          <div class="daily_text">
-            <h2>Teaser</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-              magnam ducimus ea, sed minima asperiores.
-            </p>
-            <a href="" class="cta_btn">Se mere</a>
-          </div>
-        </article>
-      </section>
-      <section id="breaking">
-        <article class="news_card">
-          <h3>Nyhed</h3>
-          <p>Lorem ipsum dolor sit, sed minima asperiores.</p>
-          <img src="" alt="news_img" />
-          <a class="cta_btn" href="">Læs mere</a>
-        </article>
-        <article class="news_card">
-          <h3>Nyhed</h3>
-          <p>Lorem ipsum dolor sit, sed minima asperiores.</p>
-          <img src="" alt="news_img" />
-          <a class="cta_btn" href="">Læs mere</a>
-        </article>
-        <article class="news_card">
-          <h3>Nyhed</h3>
-          <p>Lorem ipsum dolor sit, sed minima asperiores.</p>
-          <img src="" alt="news_img" />
-          <a class="cta_btn" href="">Læs mere</a>
-        </article>
-      </section>
-    </main>
 
-    <footer>
-      <nav class="some">
-        <ul>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-        </ul>
-      </nav>
-      <nav class="another">
-        <ul>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-        </ul>
-      </nav>
-      <nav class="yetanother">
-        <ul>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-        </ul>
-      </nav>
-    </footer>
-    <script src="js/burger.js"></script>
-    <!-- <script src="js/main.js"></script> -->
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/custom.css" />
+  <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="stylesheet" href="css/general.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/burger.css" />
+  <link rel="stylesheet" href="css/cards.css" />
+  <link rel="stylesheet" href="css/infographic.css">
+  <link rel="icon" type="image/png" href="img/fav.png" />
+  <title>Emergency Site</title>
+</head>
+
+<body id="frontpage">
+  <header>
+    <nav>
+      <div id="logotype-wrapper" class="logo">
+        <a href="index.html">
+          <img src="img/Logo_type.svg" alt="">
+        </a>
+      </div>
+      <ul class="menu">
+        <li><a class="menuItem" href="instruction.html">Space Away </a></li>
+        <li><a class="menuItem" href="register.html">Let's make a deal</a></li>
+        <li><button id="theme-toggle" class="slider-toggle">
+            <div class="knob"></div>
+          </button></li>
+        <!-- /*<button id="btn_tog">Light/dark</button>*/  -->
+      </ul>
+      <button class="burger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+    </nav>
+  </header>
+  <section id="main-disclamer">
+    <div id="main-disclamer-content">
+      <img src="img/space-ships.svg" alt="ICON" />
+      <div>
+        <img src="img/Logo_space.svg" alt="" id="logo_space">
+        <!-- <h1 id="space_h1">SPACE</h1>
+        <h1>ESCAPE</h1> -->
+        <p class="sub">3.. 2.. 1.. spacious travels</p>
+      </div>
+    </div>
+  </section>
+
+  <main>
+
+    <section id="daily">
+
+      <article class="daily_card">
+        <img src="img/RejsenTilMars.webp" alt="teaser_img" />
+        <div class="daily_text">
+          <h2>Når Jorden når sin grænse, begynder menneskeheden forfra.</h2>
+          <h3>Mars er ikke en flugt — det er en fortsættelse.</h3>
+          <p>
+            Verden ændrer sig hurtigere, end vi kan følge med. Ressourcerne svinder, og livet, som vi kender det, står
+            for fald.
+            Mars Pioneer Program giver dig muligheden for at blive en del af næste epoke — et nyt, bæredygtigt samfund
+            bygget på
+            viden, teknologi og håb. Det handler ikke om at undslippe Jorden. Det handler om at give menneskeheden en
+            fremtid.
+          </p>
+          <a href="" class="cta_btn">Se mere</a>
+        </div>
+      </article>
+
+      <article class="daily_card">
+        <img src="img/livetpåmars.webp" alt="teaser_img" />
+        <div class="daily_text">
+          <h2>Verdens sidste grænse er ikke på Jorden. Den er på Mars.</h2>
+          <h3>For dem, der tør skabe historie — ikke bare læse om den.</h3>
+          <p>
+            Eventyret kalder. MarsRelocation™ tilbyder dig chancen for at blive blandt de første, der sætter fod på en
+            ny verden.
+            Her handler det ikke kun om at overleve, men om at opdage — at forme, bygge og definere, hvad menneskeheden
+            kan være.
+            Oplev en ny horisont, og sæt dit præg på fremtiden.
+          </p>
+          <a href="" class="cta_btn">Se mere</a>
+        </div>
+      </article>
+
+      <article class="daily_card">
+        <img src="img/jordentilmars.webp" alt="teaser_img" id="jorden_mars" />
+        <div class="daily_text">
+          <h2>Jorden brænder. Du har stadig en plan B.</h2>
+          <h3>Sikkerhed, bolig og transport — klar til afgang.</h3>
+          <p>
+            MarsRelocation™ tilbyder en realistisk vej væk fra kaos. Med vores partnerskaber i Mars Habitat Initiative
+            får du
+            boliggaranti, træning og medicinsk forberedelse. Vi hjælper dig hele vejen, fra afrejse til ankomst. Det er
+            ikke
+            science fiction, det er din overlevelsesplan.
+          </p>
+          <a href="" class="cta_btn">Se mere</a>
+        </div>
+      </article>
+
+    </section>
+
+
+
+    <section id="breaking">
+      <article class="news_card">
+        <h3>Nyhed</h3>
+        <p>Kom og sige hej!</p>
+        <img src="img/Man-mars.svg" alt="news_img" id="liv_mars" />
+
+        <button class="cta_btn" popovertarget="popup">LÆS MERE</button>
+
+        <div popover id="popup">
+          <button id="close_btn" popovertarget="popup">LUK</button>
+          <h2>Din nye nabo venter</h2>
+          <p>Din nye Mars-villa venter og de orange stepper er klar til at blive udforsket. Glæd dig til at nye
+            relationer med både
+            nye og gamle beboere, fx Fjong som har boet og været med til at starte bo-fællesskabet mellem os og
+            Mars-boerne.</p>
+          <img src="img/Man-mars.svg" alt="">
+
+        </div>
+
+      </article>
+
+      <article class="news_card">
+        <h3>Nyhed</h3>
+        <p>SØG NU!: Bliv Astronaut over sommerferien</p>
+        <img src="img/spaceship.svg" alt="news_img" />
+
+        <button class="cta_btn" popovertarget="popup">LÆS MERE</button>
+
+        <div popover id="popup">
+          <button id="close_btn" popovertarget="popup">LUK</button>
+          <h2>Universet venter, tage dit næster skidt mod vores nye civilisation.</h2>
+          <p>Bliv en af de første Astronauter til at sætte fod på Mars' røde overflade, søg optagelse nu og bliv flyve
+            klar efter sommerferien.</p>
+          <img src="img/Logo_space.svg" alt="">
+
+        </div>
+
+      </article>
+
+      <article class="news_card">
+        <h3>Nyhed</h3>
+        <p>Lorem ipsum dolor sit, sed minima asperiores.</p>
+        <img src="img/DIYrocket.svg" alt="news_img" />
+        <a class="cta_btn" href="">Læs mere</a>
+      </article>
+
+    </section>
+
+    <section id="jord_klode">
+      <h2 id="big_hero">Skynd dig inden det er for sent!</h2>
+    </section>
+    <img id="jord_under" src="img/jord_klode.webp" alt="">
+
+  </main>
+
+  <footer>
+    <nav class="some">
+      <ul>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+      </ul>
+    </nav>
+    <nav class="another">
+      <ul>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+      </ul>
+    </nav>
+    <nav class="yetanother">
+      <ul>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+      </ul>
+    </nav>
+  </footer>
+  <script src="js/burger.js"></script>
+  <script src="js/dialog.js"></script>
+  <script src="js/lightdark.js"></script>
+
+  <!-- <script src="js/main.js"></script> -->
+</body>
+
 </html>
