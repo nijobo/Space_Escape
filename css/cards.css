@@ -25,6 +25,7 @@
 .daily_text .cta_btn {
   justify-self: left;
   width: 80%;
+  height: 40px;
 }
 .daily_img {
   width: 100%;
@@ -127,10 +128,28 @@ dialog {
   }
 }
 
-/* NEWS */
-
-#liv_mars {
+#popup1 {
+  max-width: 90vh;
+  opacity: 1;
+  transition: 3s;
+  img {
+    max-width: 400px;
+    place-self: center;
+    padding-bottom: 20px;
+  }
 }
+
+#popup2 {
+  max-width: 90vh;
+  opacity: 1;
+  transition: 3s;
+  img {
+    max-width: 400px;
+    place-self: center;
+    padding-bottom: 20px;
+  }
+}
+/* NEWS */
 
 /*** register ***/
 label {
@@ -258,4 +277,15 @@ section {
   border-radius: 6px;
   display: grid;
   gap: 0.5rlh;
+}
+
+/*** Footer ***/
+.foot_color {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column: 1/4;
+  background-color: #c62127;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

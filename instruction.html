@@ -15,6 +15,13 @@
   <link rel="stylesheet" href="css/infographic.css" />
   <link rel="icon" type="image/png" href="img/fav.png" />
   <title>Emergency Site</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="image/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="image/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="image/favicon.ico">
+  <link rel="manifest" href="image/favicon.ico">
+
+  <meta name="robots" content="noindex" />
 </head>
 
 <body id="instruction">
@@ -26,6 +33,9 @@
       <ul class="menu">
         <li><a class="menuItem" href="instruction.html">Space Away </a></li>
         <li><a class="menuItem" href="register.html">Let's make a deal</a></li>
+        <li><button id="theme-toggle" class="slider-toggle">
+            <div class="knob"></div>
+          </button></li>
       </ul>
       <button class="burger">
         <span class="line"></span>
@@ -37,7 +47,9 @@
 
   <main>
     <h1>SPACE AWAY</h1>
-    <p>Hvilken vej væk passer dig? Give me a hug astronaut</p>
+    <h1>Hvilken vej flugtvej passer dig?</h1>
+
+
 
     <section class="info-graphic">
       <?xml version="1.0" encoding="UTF-8"?>
@@ -252,13 +264,18 @@
     <section class="info-text">
       <h2>Din Rumrejse</h2>
       <article>
+
         <div class="din_rumrejse">
           <p class="placeholder">Find din helt egen vej til Mars</p>
-          <img src="img/Spaceship.svg" alt="">
+          <div class="rumrejse_3">
+            <img src="img/Spaceman.svg" alt="">
+            <img src="img/Spaceship.svg" alt="">
+            <img src="img/DIYrocket.svg" alt="">
+          </div>
         </div>
       </article>
       <aside id="efficiency" class="info-box gul hide">
-        <img src="img/Man-mars.svg" alt="">
+        <img src="img/Spaceman.svg" alt="">
       </aside>
       <aside id="requirement" class="info-box rod hide">
 
@@ -267,33 +284,30 @@
   </main>
 
   <footer>
-    <nav class="some">
-      <ul>
-        <li><a href="">link</a></li>
-        <li><a href="">link</a></li>
-        <li><a href="">link</a></li>
-        <li><a href="">link</a></li>
-      </ul>
-    </nav>
-    <nav class="another">
-      <ul>
-        <li><a href="">link</a></li>
-        <li><a href="">link</a></li>
-        <li><a href="">link</a></li>
-        <li><a href="">link</a></li>
-      </ul>
-    </nav>
-    <nav class="yetanother">
-      <ul>
-        <li><a href="">link</a></li>
-        <li><a href="">link</a></li>
-        <li><a href="">link</a></li>
-        <li><a href="">link</a></li>
-      </ul>
-    </nav>
+    <div class="foot_color">
+      <nav class="some">
+        <ul>
+          <li><a href="">About US</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+      <nav class="another">
+        <ul>
+          <li><a href="">What's new?</a></li>
+          <li><a href="">What is your dream?</a></li>
+        </ul>
+      </nav>
+      <nav class="yetanother">
+        <ul>
+          <li><a href="">See you later</a></li>
+          <li><a href="">Maybe tomorrow?</a></li>
+        </ul>
+      </nav>
+    </div>
   </footer>
   <script src="js/burger.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/lightdark.js"></script>
 
   <!-- <script src="js/main.js"></script> -->
 

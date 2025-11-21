@@ -49,8 +49,8 @@ function clickGul() {
   console.log("clickGul");
   showInfo(
     "DIY raketten",
-    "Den gule zone symboliserer kreativitet og energi.",
-    "<h3>Gør det selv</h3><p>Her handler det om innovation og ideudvikling.</p>"
+    "Har du hænderne skruet ordenligt på?",
+    "<h3>Gør det selv</h3><p>Sammensæt innovation og ideudvikling ved at bygge din helt egen rumraket. Du vælger selv hvilke specs du gerne vil have på din raket, så sender vil alt du skal bruge, plus en nem og sikker vejledning lavet i samarbejde med IKEA.</p>"
   );
 }
 
@@ -67,8 +67,8 @@ function clickRod() {
   console.log("clickRod");
   showInfo(
     "Astronaut",
-    "Den røde zone står for handling og beslutning.",
-    "<h3>Mod det uendelige univers</h3><p>Her sker tingene – fart og resultater.</p>"
+    "Spacious travels",
+    "<h3>Mod det uendelige univers</h3><p>Livet fortsætter, bare ikke på jorden.. Bliv en af de første Astronauter på Mars, og sikre menneskets overlevelse of fremtid. Vi tilbyder et nemt og hurtigt forløb ved et af vores lokale rum-centre, hvis du har det der skal til?!</p>"
   );
 }
 
@@ -85,7 +85,7 @@ function clickOrg() {
   console.log("clickOrg");
   showInfo(
     "Din Grønne Nabo",
-    "Spacious travels",
+    "We come in peace",
     "<h3>Sig hej til din nye nabo</h3><p>Din nye Mars-villa venter og de orange stepper er klar til at blive udforsket. Glæd dig til at nyerelationer med både nye og gamle beboere, fx Fjong som har boet og været med til at starte bo-fællesskabet mellem os og Mars-boerne.</p>"
   );
 }

@@ -15,6 +15,14 @@
   <link rel="stylesheet" href="css/infographic.css">
   <link rel="icon" type="image/png" href="img/fav.png" />
   <title>Emergency Site</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="image/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="image/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="image/favicon.ico">
+  <link rel="manifest" href="image/favicon.ico">
+
+  <meta name="robots" content="noindex" />
 </head>
 
 <body id="frontpage">
@@ -113,7 +121,7 @@
       <article class="news_card">
         <h3>Nyhed</h3>
         <p>Kom og sige hej!</p>
-        <img src="img/Man-mars.svg" alt="news_img" id="liv_mars" />
+        <img src="img/Spaceman.svg" alt="news_img" id="liv_mars" />
 
         <button class="cta_btn" popovertarget="popup">LÆS MERE</button>
 
@@ -124,7 +132,7 @@
             relationer med både
             nye og gamle beboere, fx Fjong som har boet og været med til at starte bo-fællesskabet mellem os og
             Mars-boerne.</p>
-          <img src="img/Man-mars.svg" alt="">
+          <img src="img/Spaceman.svg" alt="">
 
         </div>
 
@@ -133,16 +141,16 @@
       <article class="news_card">
         <h3>Nyhed</h3>
         <p>SØG NU!: Bliv Astronaut over sommerferien</p>
-        <img src="img/spaceship.svg" alt="news_img" />
+        <img src="img/Spaceship.svg" alt="news_img" />
 
-        <button class="cta_btn" popovertarget="popup">LÆS MERE</button>
+        <button class="cta_btn" popovertarget="popup1">LÆS MERE</button>
 
-        <div popover id="popup">
-          <button id="close_btn" popovertarget="popup">LUK</button>
+        <div popover id="popup1">
+          <button id="close_btn" popovertarget="popup1">LUK</button>
           <h2>Universet venter, tage dit næster skidt mod vores nye civilisation.</h2>
           <p>Bliv en af de første Astronauter til at sætte fod på Mars' røde overflade, søg optagelse nu og bliv flyve
             klar efter sommerferien.</p>
-          <img src="img/Logo_space.svg" alt="">
+          <img src="img/Spaceship.svg" alt="">
 
         </div>
 
@@ -150,9 +158,19 @@
 
       <article class="news_card">
         <h3>Nyhed</h3>
-        <p>Lorem ipsum dolor sit, sed minima asperiores.</p>
+        <p>DIY: Byg fra bunden og til det uendelige univers</p>
         <img src="img/DIYrocket.svg" alt="news_img" />
-        <a class="cta_btn" href="">Læs mere</a>
+
+        <button class="cta_btn" popovertarget="popup2">LÆS MERE</button>
+
+        <div popover id="popup2">
+          <button id="close_btn" popovertarget="popup2">LUK</button>
+          <h2>Universet venter, tage dit næster skidt mod vores nye civilisation.</h2>
+          <p>Bliv en af de første Astronauter til at sætte fod på Mars' røde overflade, søg optagelse nu og bliv flyve
+            klar efter sommerferien.</p>
+          <img src="img/DIYrocket.svg" alt="">
+
+        </div>
       </article>
 
     </section>
@@ -165,30 +183,26 @@
   </main>
 
   <footer>
-    <nav class="some">
-      <ul>
-        <li><a href="">link</a></li>
-        <li><a href="">link</a></li>
-        <li><a href="">link</a></li>
-        <li><a href="">link</a></li>
-      </ul>
-    </nav>
-    <nav class="another">
-      <ul>
-        <li><a href="">link</a></li>
-        <li><a href="">link</a></li>
-        <li><a href="">link</a></li>
-        <li><a href="">link</a></li>
-      </ul>
-    </nav>
-    <nav class="yetanother">
-      <ul>
-        <li><a href="">link</a></li>
-        <li><a href="">link</a></li>
-        <li><a href="">link</a></li>
-        <li><a href="">link</a></li>
-      </ul>
-    </nav>
+    <div class="foot_color">
+      <nav class="some">
+        <ul>
+          <li><a href="">About US</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+      <nav class="another">
+        <ul>
+          <li><a href="">What's new?</a></li>
+          <li><a href="">What is your dream?</a></li>
+        </ul>
+      </nav>
+      <nav class="yetanother">
+        <ul>
+          <li><a href="">See you later</a></li>
+          <li><a href="">Maybe tomorrow?</a></li>
+        </ul>
+      </nav>
+    </div>
   </footer>
   <script src="js/burger.js"></script>
   <script src="js/dialog.js"></script>

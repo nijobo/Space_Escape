@@ -14,12 +14,16 @@ function cancelPopup(event) {
 function handleSubmit(event) {
   event.preventDefault();
 
+  console.log("handlesubmit");
+
+  const formData = new FormData(form);
+
   // 1. Saml værdierne fra formularen
-  const firstName = form.querySelector("#first_name").value;
-  const lastName = form.querySelector("#last_name").value;
-  const email = form.querySelector("#email").value;
-  const password = form.querySelector("#password").value;
-  const terms = form.querySelector("#terms").checked;
+  const firstName = formData.get("first_name");
+  const lastName = formData.get("last_name");
+  const email = formData.get("email");
+  const password = formData.get("password");
+  const terms = formData.get("accept_terms");
 
   // 2. Vis værdierne i de rigtige output-felter
   firstNameOutput.textContent = firstName;
@@ -33,13 +37,3 @@ function handleSubmit(event) {
 
 form.addEventListener("invalid", cancelPopup, true);
 form.addEventListener("submit", handleSubmit);
-
-function handleSubmit(event) {
-  event.preventDefault();
-
-  const formData = new FormData(form);
-  // ...
-  optionsOutput.textContent = formData.getAll("my_options").join(", ");
-  // ...
-  form.reset();
-}
